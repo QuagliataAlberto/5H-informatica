@@ -5,7 +5,6 @@
 </head>
 
 <body>
-<h2>Inserisci le credenziali</h2>
 <?php
 
 if(isset($_POST['username']) && ($_POST['password']))
