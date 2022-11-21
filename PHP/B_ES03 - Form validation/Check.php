@@ -1,3 +1,4 @@
+<!-- Alberto Angelo Quagliata -->
 <?php
 
 $nome=trim($_POST["nome"]);  /*assegno al campo nome il valore nome*/
