@@ -5,7 +5,7 @@
 </head>
 <body>
 	<h2>Validation Form</h2>
-	<h1>compilare obbligatoriamente i seguenti campi</h1>
+	<h4>compilare obbligatoriamente i seguenti campi</h4>
 	<form name="frmLogin" action="Check.php" method="POST">
 		
 		 - Nome: <input type="text" name="nome"><br>
@@ -15,7 +15,7 @@
 		 - Email: <input type="text" name="email"><br>
 		 - Cellulare: <input type="text" name="cellulare"><br>
 		 - Password: <input type="password" name="password"><br>
-			<input type="submit" value="Submit">
+			<input type="submit" value="Accedi">
 		
 	</form><hr/>
 
