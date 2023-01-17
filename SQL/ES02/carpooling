@@ -1,0 +1,4 @@
+CREATE TABLE utente(
+    nome_utente CHAR(12) NOT NULL PRIMARY KEY,
+    passw CHAR(20)  NOT NULL
+    );
