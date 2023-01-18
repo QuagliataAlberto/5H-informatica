@@ -2,3 +2,34 @@ CREATE TABLE utente(
     nome_utente CHAR(12) NOT NULL PRIMARY KEY,
     passw CHAR(20)  NOT NULL
     );
+
+
+//
+CREATE TABLE corsi(
+    classe INT,
+    sezione CHAR(4),
+    nome_corso CHAR(25),
+    PRIMARY KEY(classe, sezione)
+    );
+
+
+//
+CREATE TABLE studenti(
+    matricola CHAR(20) PRIMARY KEY,
+    nome VARCHAR(20),
+    cognome VARCHAR(20),
+    data_nascita DATE,
+    classe INT,
+    sezione CHAR(4),
+    FOREIGN KEY(classe, sezione) REFERENCES corsi(classe, sezione)
+    );
+    
+//
+INSERT 
+INTO corsi(classe, sezione, nome_corso) 
+VALUES ('5','H','Informatica');
+
+//
+
+
+   
