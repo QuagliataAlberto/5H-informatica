@@ -54,9 +54,15 @@ INSERT
 INTO studenti(matricola, nome, cognome, data_nascita, classe, sezione)
 VALUES ('04', 'Maranza', 'Scimmia', '2006-06-28', '2', 'H');
 
+
 __istruzione SELECT di PROIEZIONE__
 SELECT matricola, nome, cognome, data_nascita, classe, sezione
 FROM studenti;
+
+__istruzione SELECT di SELEZIONE__
+SELECT *
+FROM studenti
+WHERE cognome = 'Mandriani';
 
 
 
