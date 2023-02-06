@@ -31,5 +31,12 @@ VALUES ('5','H','Informatica');
 
 //
 
+ALTER TABLE utente
+ADD data_nascita DATE
+
+UPDATE utente
+SET email='mario@gmail.com'
+WHERE username='Mario';
+
 
    
