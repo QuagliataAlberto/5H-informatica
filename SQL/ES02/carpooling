@@ -38,5 +38,19 @@ UPDATE utente
 SET email='mario@gmail.com'
 WHERE username='Mario';
 
+UPDATE utente
+SET data_nascita='07-03-2004'
+WHERE id='1000'
+
+
+ALTER TABLE utente
+ADD COLUMN nome CHAR(40)
+
+
+ALTER TABLE utente
+ADD COLUMN cognome CHAR(40)
+
+
+
 
    
