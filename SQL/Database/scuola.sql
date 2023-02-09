@@ -89,6 +89,17 @@ CREATE TABLE studenti(
 
     
     
+    INSERT INTO scuola(codice, nome_scuola) 
+VALUES ('01', 'ITCS Erasmo da Rotterdam');
+
+INSERT INTO scuola(codice, nome_scuola) 
+VALUES ('02', 'Russell');
+
+INSERT INTO scuola(codice, nome_scuola) 
+VALUES ('03', 'Privo Levi');
+    
+    
+    
     INSERT INTO studenti(matricola, nome, cognome, data_nascita, classe, codice_scuola) 
 VALUES ('101', 'Alberto', 'Quagliata', '2002-10-09', '5H', '01');
 
