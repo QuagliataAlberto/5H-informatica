@@ -87,6 +87,21 @@ CREATE TABLE studenti(
                    tutti i studenti avente come chiave esterna come codice della scuola verrà aggiornato di conseguenza 
     );
 
+    
+    
+    INSERT INTO studenti(matricola, nome, cognome, data_nascita, classe, codice_scuola) 
+VALUES ('101', 'Alberto', 'Quagliata', '2002-10-09', '5H', '01');
+
+INSERT INTO studenti(matricola, nome, cognome, data_nascita, classe, codice_scuola) 
+VALUES ('102', 'Stefano', 'Forleo', '2004-11-03', '5H', '01');
+
+INSERT INTO studenti(matricola, nome, cognome, data_nascita, classe, codice_scuola) 
+VALUES ('103', 'Giacomo', 'Poretti', '2003/11/15', '4A', '02');
+
+INSERT INTO studenti(matricola, nome, cognome, data_nascita, classe, codice_scuola) 
+VALUES ('104', 'Jovanni', 'Lavazza', '2006/09/13', '3F', '03')
+
+
 
 
 
