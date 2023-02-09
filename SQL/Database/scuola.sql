@@ -66,3 +66,27 @@ WHERE cognome = 'Mandriani';
 
 
 
+
+
+CREATE TABLE scuola(
+    codice INT(65) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome_scuola CHAR(64) NOT NULL
+    );
+    
+
+
+CREATE TABLE studenti(
+    matricola CHAR(20) PRIMARY KEY,
+    nome VARCHAR(20) NOT NULL,
+    cognome VARCHAR(20) NOT NULL,
+    data_nascita DATE NOT NULL,
+    classe CHAR(2) NOT NULL,
+    codice_scuola INT(65) NOT NULL,
+    FOREIGN KEY(codice_scuola) REFERENCES scuola(codice)
+    	ON UPDATE CASCADE   (quando viene aggiornata il codice della scuola nella tabella scuola, 
+                   tutti i studenti avente come chiave esterna come codice della scuola verrà aggiornato di conseguenza 
+    );
+
+
+
+
