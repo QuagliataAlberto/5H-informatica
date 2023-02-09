@@ -111,6 +111,8 @@ VALUES ('103', 'Giacomo', 'Poretti', '2003/11/15', '4A', '02');
 
 INSERT INTO studenti(matricola, nome, cognome, data_nascita, classe, codice_scuola) 
 VALUES ('104', 'Jovanni', 'Lavazza', '2006/09/13', '3F', '03')
+    
+    on è un vincolo dove specifico, in questo caso tutte quelle che hanno un colleamento 
 
 
 
