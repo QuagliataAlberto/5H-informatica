@@ -37,13 +37,13 @@ require 'function.php';
 					
 				}else
 					{
-						//connessione al database
+						//verifico le credenziali inserite, utente già fatto il login
 						login();
 					}
 			}
 			else
 			{
-				//L'utente ha già fatto il login
+				//Se utente ha già fatto il login, compare link per alcune pagine
 				echo "L'utente ha già effetuato il login <br>";
 				echo "<a href='homepage.php'>Home</a><br>";
 				echo "<a href='Logout.php'>Esci</a><br>";
