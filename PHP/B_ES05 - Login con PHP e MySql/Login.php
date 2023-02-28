@@ -13,7 +13,7 @@ require 'function.php';
 	
 	<body> 
 		<?php
-			//definizione del db
+			//definizione delle variabili per la connessione al DB
 			define('DB_SERVER', 'localhost');
 			define('DB_NAME', 'gestione_utenti');
 			define('DB_USER', 'root');
