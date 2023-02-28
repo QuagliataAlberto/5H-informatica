@@ -8,7 +8,7 @@
 		$username=$_POST['username'];
 		$pswd=$_POST['password'];
 		
-		//query per database
+		//query per la connessione al DB
 		$pdo = new PDO("mysql:host=".DB_SERVER.";dbname=".DB_NAME, DB_USER, DB_PASSWORD);	
 		
 		//interogazione database
@@ -42,7 +42,7 @@
 		$username=$_POST['username'];
 		$pswd=$_POST['password'];
 		
-		//preparo la quesry al database
+		//preparo la query al database
 		$pdo = new PDO("mysql:host=".DB_SERVER.";dbname=".DB_NAME, DB_USER, DB_PASSWORD);
 		
 		//inserisco i valori del POST
