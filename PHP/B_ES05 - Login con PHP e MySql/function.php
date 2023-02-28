@@ -18,14 +18,14 @@
 		
 		if($ris->rowCount()>0)
 		{
-			//se vero
+			//se è vero
 			$_SESSION['login']=true;
 			echo "Benvenuto nella Homepage<br>";
 			echo "<a href='PagRis.php'>Pagina Riservata</a>";
 		}
 		else
 		{
-			//se falso
+			//se è falso
 			$_SESSION['login']=false;
 			echo "Credenziali errate!";
 		}
