@@ -13,7 +13,7 @@
 		<h2>Imposta nuova password</h2>
 
 	<?php
-		//definizioni del db
+		//definizioni delle variabili per la connessione al DB
 		  define('DB_SERVER', 'localhost');
 		  define('DB_NAME', 'gestione_utenti');
 		  define('DB_USER', 'root');
